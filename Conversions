@@ -1,0 +1,5 @@
+Time
+
+Convert Seconds to Days, Hours, Minutes, and Seconds
+seconds = "Input Seconds Here"
+eval "echo $(date -ud "@$seconds" +'$((%s/3600/24)) days %H hours %M minutes &S seconds')"
